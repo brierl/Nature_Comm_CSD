@@ -7,3 +7,4 @@ CSD_Image_EEG_Wrapper.m processes imaging and EEG data for a mouse and calls 3 s
 Supporting .txt files include spectra for LEDs used on imaging system or extinction coefficients and are called within proc_Imaging.m. 
 Supporting .tif file is called in proc_Imaging.m to subtract ambient light around imaging system.
 Supporting .m files are called in proc_Imaging.m and perform various data processing procedures.
+fcOIS_GCaMP.m is a data acquisition file (Images + EEG). Written to interface with an NI DAQ board for camera/LED/EEG triggers. 
